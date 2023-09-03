@@ -127,7 +127,9 @@ h6 {
   height: 60px;
   animation: animate-preloader 1s linear infinite;
 }
-
+.modal-rep {
+  padding: 70px;
+}
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -156,6 +158,15 @@ h6 {
     background: transparent !important;
     padding: 10px;
   }
+  .btn-pr {
+    margin-right: 100px;
+  }
+  .btn-pri {
+    margin-top: 20px;
+  }
+  .li-re {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 1300px) {
   .panel-skill {
@@ -166,7 +177,14 @@ h6 {
   .respon2 {
   }
 }
-
+@media screen and (max-width: 1470px) {
+  .btn-pri {
+    margin-top: 20px;
+  }
+  .li-re {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 990px) and (min-width: 770px) {
   .panel-skill {
     width: 90%;
@@ -191,6 +209,12 @@ h6 {
   }
   .resp1 {
     background: transparent !important;
+    padding: 10px;
+  }
+  .btn-pr {
+    margin-right: 10px;
+  }
+  .modal-rep {
     padding: 10px;
   }
 }
