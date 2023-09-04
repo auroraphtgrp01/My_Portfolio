@@ -128,7 +128,6 @@ h6 {
   animation: animate-preloader 1s linear infinite;
 }
 .modal-rep {
-  padding: 70px;
 }
 @keyframes animate-preloader {
   0% {
